@@ -1,0 +1,9 @@
+@if (category()) {
+    <div class="category-card">
+      <img [src]="category().imageUrl" alt="img" class="img-fluid category-image" />
+      <div>
+        <div class="px-4 py-2 rounded fw-bold text-center category-title">{{category().name}}</div>
+      </div>
+    </div>
+  }
+  

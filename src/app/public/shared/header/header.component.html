@@ -1,0 +1,19 @@
+<header>
+    <div class="fw-bold logo">SHopping</div>
+    <nav>
+        <a href="">Home</a>
+        <div class="shop-menu" (mouseenter)="toggleMenu(true)" (mouseleave)="toggleMenu(false)">
+            <a href="">shop <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <a href="">Our Story</a>
+        <a href="">Blog</a>
+        <a href="">Contact Us</a>
+        <app-mega-menu [show]="menu_show"></app-mega-menu>
+    </nav>
+    <div class="general-flex">
+        <span class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span class="px-3 cursor-pointer"><i class="fa-regular fa-heart"></i></span>
+        <span class="ps-2 pe-3 cursor-pointer"><i class="fa-solid fa-store"></i></span>
+        <button class="btn" routerLink="/login">Login</button>
+    </div>
+</header>

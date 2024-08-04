@@ -1,5 +1,49 @@
 # ECommerce
 
+# packages
+#1- ng add @angular/material
+#2- npm i ngx-toastr
+#3- npm i @ngx-translate/core
+#4- npm i @ngx-translate/http-loader
+#5- npm i ngx-translate-messageformat-compiler
+#6- npm i bootstrap
+#6- font-awesome icons
+
+# project structure:
+
+## core
+### Acount
+### Cart
+### Favourite
+### Home
+### Products
+### Orders
+### Profile
+### Notifications
+
+## Admin
+### Products
+### Categories
+### Feedback
+### Notifications
+
+## shared
+### Components
+### Models
+### Enums
+### Services
+### Modules
+
+## assets
+### i18n
+#### ar.json
+#### en.json
+### images
+
+# Admin Layout
+# User Layout
+# Public Layout
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
 ## Development server
